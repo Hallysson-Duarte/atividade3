@@ -1,0 +1,52 @@
+div{
+    background-color: rgb(247, 252, 205);
+    font-size: 16pt;
+}
+
+#name{
+    background-color: darkblue;
+    padding: 8px;
+}
+
+h1{
+    font-size: 24pt;
+    color:rgb(245, 245, 248)
+}
+
+h2{
+    color:rgb(8, 8, 8)
+}
+
+#img1{
+    border-style: ridge;
+    border-width: 15px;
+    border-color: rgb(122, 122, 243)
+}
+
+form{
+    width:500px;
+    margin: auto;
+}
+
+input, textarea{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+}
+
+input:hover, textarea:hover{
+    background-color: #dddddd;
+}
+
+legend{
+    color: #021257;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+}
+
+fieldset{
+    border-color: darkblue;
+    margin: 20px;
+}
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html5>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Hállysson Duarte</title>
+    </head>
+    <body>
+        <div id="name">
+        <h1 align= center> Discente: Hállysson Henrique Fagundes Duarte</h1>
+        </div>
+        
+        <hr>
+        <center> 
+            <img id="img1" src="Hallysson2.jpg" width="240" height="300">
+        </center>
+        
+        <hr>
+        
+        <div>
+        <h2>Tabela com horários de Trabalho e Estudo</h2>
+        <table border=#3333ff style="width:100%">
+            <tr>
+            <center>
+              <th>Horário</th>
+              <th>Segunda</th>
+              <th>Terça</th>
+              <th>Quarta</th>
+              <th>Quinta</th>
+              <th>Sexta</th>
+            </center>
+            </tr>
+            <tr>
+              <td><strong>Manhã</strong></td>
+              <td>Trabalho</td>
+              <td>Trabalho</td>
+              <td>Trabalho</td>
+              <td>Trabalho</td>
+              <td>Trabalho</td>
+            </tr>
+            
+            <tr>
+              <td><strong>Tarde</strong></td>
+              <td>Trabalho</td>
+              <td>Trabalho</td>
+              <td>Trabalho</td>
+              <td>Trabalho</td>
+              <td>Trabalho</td>
+            </tr>
+
+            <tr>
+            <td><strong>Noite</strong></td>
+            <td>Trabalho</td>
+              <td style="color:brown"> <strong>Programação WEB</strong></td>
+              <td style="color:brown"> <strong>Estágio Supervisionado I</strong></td>
+              <td style="color:brown"> <strong>Planej. e Prát. Gestão Escolar</strong></td>
+              <td style="color:brown"> <strong>Ensino de Computação I</strong></td>
+            </tr>
+          </table>
+          <p>Acima mostro o meu horário de trabalho e os dias disponíveis para as respectivas disciplinas no horário noturno</p>
+        </div>
+
+        <hr>
+
+        <form method="post" id="fContat" action="formulario.php">
+          <fieldset id="usuario"><legend>Fale Conosco</legend>
+            <p>Nome <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"/></p>
+            <p>E-mail <input type="email" name="tMail" id="cMail" size="20" maxlength="40" placeholder="E-mail"/></p>
+            <p><label for="cMsg">Mensagem do Usuário</label><textarea name="tMsg" min="5" max="80" id="cMsg" cols="45" rows="5" placeholder="Digite aqui sua mensagem"></textarea></p>
+          </fieldset>
+          
+            <center>
+            <button type="submit" onclick="validarformulario()">Enviar</button>
+            <button type="reset">Reset</button>
+            
+            </center>
+
+        </form>
+    </body>
+    <script type="text/javascript" src="Atividade1.js"></script>
+</html>
